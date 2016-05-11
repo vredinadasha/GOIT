@@ -1,30 +1,37 @@
-﻿head {
-	margin-top: 0px; 
-	margin-left: 300px;
-	margin-right: 300px;
+﻿body {
+	margin-top: 0;
+	margin-left: 460;
+	margin-right: 460;
     padding: 0;
-	background-color: white;
-	font-size: 18px;
+	background-color: #F2EBEB;
+	font-size: 18;
+    line-height: 1,5;
 	}
 
-img {
-	margin-left: 320px;
-	padding: 0;
-	}
-	
-body {
-  margin-top: 0px;
-	margin-left: 300px;
-	margin-right: 300px;
-    padding: 0;
-	background-color: white;
-	font-size: 18px;
-	}
-
-header,
-footer {
-border-bottom: 1px solid black; 
+article {
+    border-bottom: 1px solid black;
 }
+
+.meeting {
+    width: 510;
+    height: 710;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.work,
+.motivation,
+.contacts,
+.fidback {
+    margin-left: 50;
+    margin-right: 50;
+}
+img {
+	margin-left: 190;
+	padding: 0;
+}
+
 	
  
     
