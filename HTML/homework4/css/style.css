@@ -126,6 +126,7 @@ span {
     text-align: center;
     text-shadow: 1px 1px 1px #bfbfbf;
     border-bottom: 3px #031d28;
+    overflow: hidden;
 }
 
 .leftColumn {
@@ -134,20 +135,25 @@ span {
     float: left;
     background: #edeef0;
     border-right: 1px #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
 }
 
 .centerColumn {
     width: 580px;
-    height: 550px;
     float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
 }
 
 .rightColumn {
     width: 210px;
     height: 550px;
-    float: left;
+    float: right;
     background: #edeef0;
     border-left: 1px #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
 }
 
 h1 {
