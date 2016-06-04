@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <ul class="menu">
+            <li><a href="">Meu YouBike</a></li>
+            <li><a href="">Vender</a></li>
+            <li><a href="">Forum</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li id="attention"><a href=""><img src="img/flag.png" alt="white flag" class="flag">Minhas Ofertas</a></li>
+            <li><a href="">Ola! <ins>Entrar</ins> ou <ins>Cadastre-se</ins></a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div id="title"><b>Cadastre-se</b></div>
+        <div id="logo"><a href=""><img src="img/facebook.png" alt="Facebook" class="facebook"></a></div>
+        <div id="OU">OU</div>
+        <div id="contact_form">
+            <form class="contact_form" action="Fill_in" method="post">
+                <ul>
+                    <li>
+                        <input type="text" name="first_name" class="first_name" placeholder="First Name" required/>
+                    </li>
+                    <li>
+                        <input type="text" name="last_name" class="last_name" placeholder="Last Name" required/>
+                     </li>
+                    <li>
+                        <input type="text" name="email" class="email" placeholder="Email Address" required/>
+                    </li>
+                    <li>
+                    <input type="text" name="password1" class="password1" placeholder="Choose Password" required/>
+                        </li>
+                    <li>
+                    <input type="text" name="password2" class="password2" placeholder="Password Confirm" required/>
+                    </li>
+                </ul>
+                <div id="checkbox">
+                    <input type="checkbox" id="agree" name="saving" required/>
+                    <label for="agree"><span>Send me Youbike updates and tips</span></label>
+                </div>
+                <div>
+                    <input type="submit" class="button" value="Create my Account"/>
+                </div>
+            </form>
+        </div>
+        <div class="footer"><p>By clicking the button above, you agree to the Terms of Service</p>
+        <p>Xiew or Private Policy</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

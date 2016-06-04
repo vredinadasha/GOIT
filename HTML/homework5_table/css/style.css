@@ -1,0 +1,89 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+}
+
+#container {
+    background: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 540px;
+
+}
+
+table {
+    width: 500px;
+    height: 540px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td, tr {
+    border: 10px solid black;
+}
+
+.A {
+    height: 50px;
+}
+
+.B,
+.C {
+    height: 130px;
+}
+
+.D,
+.E {
+    height: 60px;
+}
+
+.F,
+.G {
+    height: 35px;
+}
+
+.r1 {
+    width: 120px;
+}
+
+.r2 {
+    width: 205px;
+}
+
+.r3,
+.r6 {
+    width: 165px;
+    background: yellow;
+}
+
+.r4,
+.r7 {
+    width: 50px;
+}
+
+.r5 {
+    width: 275px;
+    background: red;
+}
+
+.r10,
+.r14,
+.r18 {
+    width: 135px;
+    background: black;
+}
+
+.r13 {
+    width: 50px;
+    background: yellow;
+}
+
+.r16 {
+    width: 165px;
+    background: blue;
+}

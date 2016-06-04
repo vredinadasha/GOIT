@@ -1,0 +1,144 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efefef;
+}
+
+#wrapper {
+    margin-top: 5px;
+    margin-left: 270px;
+    padding: 45px 65px 25px 65px;
+    width: 830px;
+    height: 813px;
+    border: 2px solid white;
+    font-family: Tahoma;
+    background-image: url(../img/background.png);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    padding-top: 84px;
+    width: 263px;
+    height: 37px;
+    display: block;
+    float: left;
+    position:absolute;
+    z-index: 2;
+}
+
+.palm_tree {
+    padding-left: 138px;
+    width: 125px;
+    height: 147px;
+    display: block;
+    float: left;
+    position:absolute;
+    z-index: 1;
+}
+
+.slogan {
+    padding-top: 125px;
+    padding-left: 85px;
+    display: block;
+    float: left;
+    width: 20%;
+    font-size: 10px;
+    color: #e6e6e6;
+}
+
+.contacts {
+    padding-top: 110px;
+    width: 12%;
+    display: block;
+    float: right;
+    font-size: 10px;
+    color: white;
+}
+
+p {
+    font-size: 8px;
+}
+
+.first_menu {
+    padding-top: 145px;
+    display: block;
+    list-style: none;
+    position: absolute;
+    z-index: 5;
+}
+
+.first_menu li {
+    margin: 0 6px;
+    float: left;
+    border: 2px solid #b2b2b2;
+    list-style: none;
+    display: inline-block;
+}
+
+.second_menu {
+    padding-top: 325px;
+    display: block;
+    list-style: none;
+    position: absolute;
+    z-index: 4;
+}
+
+.second_menu li,
+.fourth_menu li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.second_menu a,
+.fourth_menu a {
+    display: inline-block;
+    color: #e6e6e6;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 0;
+    width: 280px;
+}
+
+.second_menu a:hover,
+.fourth_menu a:hover {
+    text-decoration: underline;
+}
+
+.third_menu {
+    padding-top: 400px;
+    display: block;
+    list-style: none;
+    position: absolute;
+    z-index: 3;
+}
+
+.third_menu li {
+    margin: 0 6px;
+    float: left;
+    border: 2px solid #b2b2b2;
+    list-style: none;
+    display: inline-block;
+}
+
+.fourth_menu {
+    padding-top: 585px;
+    display: block;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.copyright {
+    display: inline-block;
+    padding-top: 800px;
+    padding-bottom: 325px;
+    float: left;
+    color: white;
+    font-size: 10px;
+}

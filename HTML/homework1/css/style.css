@@ -1,0 +1,40 @@
+﻿body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #efefef;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#wrapper {
+	width: 510px;
+	background-color: white;
+	margin: 0 auto;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+}
+
+h2 {
+	margin: 0;
+	text-align: center;
+	padding: 55px 0 25px 0;
+}
+
+img {
+	display:block;
+	margin: 0 auto;
+	height: 145px;
+}
+
+div {
+	border-bottom: 1px solid black;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.contacts {
+	line-height: 1;
+}
+
+.fidback {
+	border-bottom: none;
+}

@@ -1,0 +1,167 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/background.png);
+}
+
+#container {
+    margin: 0 auto;
+    width: 1001px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+    font-family: Tahoma;
+}
+
+#header {
+    margin-top: 37px;
+    height: 175px;
+    background: #ffffff;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 25px;
+    position:absolute;
+}
+
+.slogan {
+    padding-top: 110px;
+    padding-left: 100px;
+    float: left;
+    font-size: 13px;
+    color: #4b9db4;
+}
+
+.contacts {
+    padding-top: 10px;
+    width: 16%;
+    float: right;
+    font-size: 12px;
+    color: #4b9db4;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.right_menu {
+    padding-top: 100px;
+    padding-left: 635px;
+}
+
+.right_menu li {
+    padding: 0 6px;
+    display: inline-block;
+    float: left;
+}
+
+.right_menu a {
+    color: #4b9db4;
+}
+
+figcaption {
+    font-size: 10px;
+    text-align: center;
+}
+
+#sidebar {
+    position: absolute;
+}
+
+#top {
+    position: absolute;
+    z-index: 3;
+}
+
+#menu {
+    padding-top: 236px;
+}
+
+.main_menu li {
+    padding-top: 5px;
+    position: relative;
+    float: left;
+    background: #343434;
+    list-style: none;
+}
+
+.main_menu a {
+    padding: 2px 2px 5px 1px;
+    width: 140px;
+    display: block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 1px #bfbfbf;
+}
+
+span {
+    margin-left:3px;
+    font-size:10px;
+}
+
+.main_menu a:hover {
+    background: linear-gradient(to top, #2f2f2f, #4a4a4a);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    text-shadow: 1px 1px 1px #bfbfbf;
+}
+
+.main_menu > li:hover > .submenu {
+    display: block;
+}
+
+#fon {
+    float: left;
+    background: white;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #424c43;
+    text-align: center;
+    text-shadow: 1px 1px 1px #bfbfbf;
+    border-bottom: 3px #031d28;
+    overflow: hidden;
+}
+
+.leftColumn {
+    width: 210px;
+    height: 550px;
+    float: left;
+    background: #edeef0;
+    border-right: 1px #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.centerColumn {
+    width: 580px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.rightColumn {
+    width: 210px;
+    height: 550px;
+    float: right;
+    background: #edeef0;
+    border-left: 1px #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+#footer {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
