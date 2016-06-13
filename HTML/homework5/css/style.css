@@ -12,62 +12,61 @@
 }
 
 body {
-    background-color: #efefef;
+  background-image: url(../img/background.png);
+  background-size: cover;
 }
 
 #container {
-    background-image: url(../img/background.png);
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 0 2px white, 0 0 0 4px darkgray;
-    width: 1215px;
+    width: 100%;
     height: 1028px;
     font-family: "Helvetica Neue";
 }
 
-#header {
-    background: #074f8e;
+header {
+  background: #074f8e;
+  overflow: hidden;
+  padding: 0 20px;
+  height: 37px;
 }
 
 .menu {
-    height: 40px;
-    padding-left: 425px;
-}
-
-.menu ul {
+    float: right;
     display: inline-block;
-    height: 40px;
-}
+  }
 
 .menu li {
     float: left;
     list-style: none;
     font-size: 14px;
+    color: #60b5ed;
 }
 
-.menu a {
-    display: block;
-    line-height: 40px;
-    padding-left: 19px;
-    padding-right: 19px;
+.menu li > a {
+    display: inline-block;
+    padding: 10px;
     color: #60b5ed;
     text-decoration: none;
 }
 
-.menu a:hover {
-    border-left: 1px solid #56a2dc;
-    border-right: 1px solid #56a2dc;
+.menu li > a:hover {
     color: white;
     background: linear-gradient(to top, #2e7ac4, #50afdc);
 }
 
-#attention {
-    border-left: 1px solid #56a2dc;
+#attention a {
+  padding-left: 0;
 }
-.flag {
-    vertical-align: middle;
-    padding-right: 10px;
+
+ .flag {
+   vertical-align: middle;
+   padding: 0 10px 0 20px;
+   border-left: 1px solid #56a2dc;
+ }
+
+.menu p {
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 14px;
 }
 
 #content {
@@ -87,20 +86,71 @@ body {
     font-size: 24px;
 }
 
-#logo {
-    margin: 0 auto;
-    width: 276px;
-    padding-top: 33px;
-    padding-bottom: 20px;
+.facebook {
+	margin: 36px auto 0 auto;
+	display: block;
+	width: 276px;
+	line-height: 34px;
+	font-size: 15px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
 }
 
-#OU {
-    margin: 0 auto;
-    color: #999999;
-    text-align: center;
-    background-position: center;
-    background-image: url(../img/grey_lines.png);
-    background-repeat: no-repeat;
+.facebook div {
+	display: inline-block;
+	float: left;
+}
+
+.facebook div:first-child {
+	width: 38px;
+	font-size: 26px;
+	font-weight: bold;
+	border-radius: 5px 0 0 5px;
+	border-top: 1px solid #7889b5;
+	border-right: 1px solid #1d3c73;
+	background: linear-gradient(to top, #314373, #3f5793);
+}
+
+.facebook div:last-child {
+	width: 236px;
+	height: 34px;
+	border-top: 1px solid #7889b5;
+	border-left: 1px solid #4b67a6;
+	background: linear-gradient(to top, #314373, #3f5793);
+}
+
+.facebook span {
+	font-weight: bold;
+}
+
+.facebook span:last-child {
+	font-family: Tahoma;
+	padding-left: 20px;
+}
+
+.line_form {
+	margin: 24px auto;
+	width: 275px;
+	overflow: hidden;
+}
+
+.line_form div {
+	float: left;
+}
+
+.line_form_border {
+	position: relative;
+	top: 0.45em;
+	width: 121px;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #000;
+}
+
+.line_form_text {
+	margin: 0 6px;
+	font-size: 14px;
+	color: #7c7e7b;
 }
 
 .contact_form {
@@ -109,11 +159,11 @@ body {
 }
 
 .contact_form li {
-    padding-top: 17px;
+    padding-bottom: 17px;
     list-style: none;
 }
 
-.first_name, .last_name, .email, .password1, .password2 {
+.first_name, .last_name, .email, .password {
     height: 35px;
     width: 260px;
     padding-left: 16px;
@@ -123,7 +173,7 @@ body {
     border-bottom: 1px solid #484948;
 }
 
-.first_name:focus, .last_name:focus, .email:focus, .password1:focus, .password2:focus {
+.first_name:focus, .last_name:focus, .email:focus, .password:focus {
     background: linear-gradient(to right, #1b5287, #1b5185);
     color: white;
     border-bottom: 1px solid #689bcc;
@@ -132,11 +182,8 @@ body {
 
 #checkbox {
     height: 40px;
-    padding-top: 20px;
-}
-
-#agree + label span {
     color: white;
+    font-size: 14px;
 }
 
 .button {
@@ -146,11 +193,14 @@ body {
     height: 35px;
     color: white;
     font-size: 14px;
+    cursor: pointer
+    border-radius: 3px;
+    border: 1px solid #3686ca;
     background: linear-gradient(to top, #2e7ac4, #4faddb);
 }
 
 .footer {
-    padding-top: 35px;
+    padding-top: 19px;
     color: white;
     font-size: 11px;
     text-align: center;
