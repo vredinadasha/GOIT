@@ -4,7 +4,10 @@
 }
 
 body {
+    background: #0c739f;
     background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #container {
@@ -15,7 +18,7 @@ body {
 }
 
 #header {
-    margin-top: 37px;
+    margin-top: 49px;
     height: 175px;
     background: #ffffff;
 }
@@ -148,7 +151,6 @@ span {
 
 .rightColumn {
     width: 210px;
-    height: 550px;
     float: right;
     background: #edeef0;
     border-left: 1px #c7cacf;
@@ -164,4 +166,5 @@ h1 {
     color: white;
     font-size: 12px;
     text-align: center;
+
 }
