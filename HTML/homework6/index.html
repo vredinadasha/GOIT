@@ -14,7 +14,7 @@
         </div>
         <div class="enter">
             <img src="img/man_icon.png" alt="man icon" class="icon">
-            <form class="contact_form" action="Fill_in" method="post">
+            <form class="contact_form" action="Fill_in">
                 <div>
                     <input type="text" name="login" class="login" placeholder="логин" required/>
                 </div>
@@ -22,7 +22,8 @@
                     <input type="password" name="password" class="password" placeholder="пароль" required/>
                 </div>
                 <ul>
-                    <li><a href="">вход |</a></li>
+                    <li><a href="">вход</a></li>
+                    <li>|</li>
                     <li><a href="">регистрация</a></li>
                     <li class="lost_password"><a href="">забыли пароль?</a></li>
                 </ul>
@@ -51,7 +52,7 @@
                 <li><a href="">КОНТАКТЫ</a></li>
             </ul>
             <ul class="product">
-                <img src="img/shopping_cart.png" alt="shopping cart" class="shopping_cart"></a>
+                <img src="img/shopping_cart.png" alt="shopping cart" class="shopping_cart">
                 <li class="count"><span>товаров:</span><a href="">0</a></li>
                 <li class="total"><span>на сумму:</span><a href="">0,00  грн.</a></li>
             </ul>
@@ -65,7 +66,7 @@
                 <p class="h3">Диски:</p>
                 <p class="h1">Поиск по автомобилю</p>
                 <p class="h2">Шины:</p>
-                <form method="get" action="#" id="form1">
+                <form action="#" id="form1">
                     <div class="left_filter">
                         <label class="stan_label" for="mark_auto"><span>Марка</span>авто:</label>
                         <select name="mark_auto" id="mark_auto">
@@ -75,7 +76,7 @@
                             <option value="fiat">Fiat</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <label class="stan_label" for="model_auto"><span>Модель</span><br>автомобиля:</label>
+                        <label class="stan_label" for="model_auto"><span>Модель</span><p>автомобиля:</p></label>
                         <select name="model_auto" id="model_auto">
                             <option value="empty" selected>....</option>
                             <option value="volvo">Volvo</option>
@@ -83,7 +84,7 @@
                             <option value="fiat">Fiat</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <label class="stan_label" for="year"><span>Год выпуска</span><br>автомобиля:</label>
+                        <label class="stan_label" for="year"><span>Год выпуска</span><p>автомобиля:</p></label>
                         <select name="year" id="year">
                             <option value="empty" selected>....</option>
                             <option value="1990">1990</option>
@@ -101,32 +102,32 @@
                         </select>
                     </div>
                     <div class="right_filter">
-                        <label class="stan_label" for="mark auto"><span>Марка</span>авто:</label>
-                        <select name="mark auto" id="mark auto">
+                        <label class="stan_label" for="mark_auto2"><span>Марка</span>авто:</label>
+                        <select name="mark_auto2" id="mark_auto2">
                             <option value="empty" selected>....</option>
                             <option value="volvo">Volvo</option>
                             <option value="saab">Saab</option>
                             <option value="fiat">Fiat</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <label class="stan_label" for="model auto"><span>Модель</span><br>автомобиля:</label>
-                        <select name="model auto" id="model auto">
+                        <label class="stan_label" for="model_auto2"><span>Модель</span><p>автомобиля:</p></label>
+                        <select name="model_auto2" id="model_auto2">
                             <option value="empty" selected>....</option>
                             <option value="volvo">Volvo</option>
                             <option value="saab">Saab</option>
                             <option value="fiat">Fiat</option>
                             <option value="audi">Audi</option>
                         </select>
-                        <label class="stan_label" for="year"><span>Год выпуска</span><br>автомобиля:</label>
-                        <select name="year" id="year">
+                        <label class="stan_label" for="year2"><span>Год выпуска</span><p>автомобиля:</p></label>
+                        <select name="year2" id="year2">
                             <option value="empty" selected>....</option>
                             <option value="1990">1990</option>
                             <option value="1991">1991</option>
                             <option value="1992">1992</option>
                             <option value="1993">1993</option>
                         </select>
-                        <label class="stan_label" for="complect"><span>Комплектация:</span></label>
-                        <select name="complect" id="complect">
+                        <label class="stan_label" for="complect2"><span>Комплектация:</span></label>
+                        <select name="complect2" id="complect2">
                             <option value="empty" selected>....</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -142,7 +143,7 @@
         <div id="box2">
             <div class="fon2">
                 <h3>поиск шин</h3>
-                <form method="get" action="" id="form2">
+                <form action="" id="form2">
                     <div class="center_filter">
                         <label for="size1">Размер:</label>
                         <select name="size1" id="size1">
@@ -165,15 +166,15 @@
                                 <p>Сезон:</p>
                             </div>
                             <div class="choise">
-                                <div class="summer">
+                                <div>
                                     <input type="checkbox" class="checkbox" id="summer">
                                     <label class="label" for="summer">лето</label>
                                 </div>
-                                <div class="winter">
+                                <div>
                                     <input type="checkbox" class="checkbox" id="winter">
                                     <label class="label" for="winter">зима</label>
                                 </div>
-                                <div class="allseasons">
+                                <div>
                                     <input type="checkbox" class="checkbox" id="allseasons">
                                     <label class="label" for="allseasons">всесез</label>
                                 </div>
@@ -188,27 +189,30 @@
         <div id="box3">
             <div id="morefon">
                 <h3>поиск дисков</h3>
-                <form method=get" action="" id="form3">
+                <form action="" id="form3">
                     <div class="first_column">
                         <label class="diameter1_label" for="diameter1"><span>Диаметр</span>диска:</label>
                         <select name="diameter1" id="diameter1">
                             <option value="14" selected>14</option>
                         </select>
-                        <label class="holes_label" for="num_support_holes"><span>Количество</span>крепёжных <p>отверстий:</p></label>
+                        <label class="holes_label" for="num_support_holes"><span>Количество</span>крепёжных
+                            <p>отверстий:</p></label>
                         <select name="num_support_holes" id="num_support_holes">
                             <option value="3" selected>3</option>
                         </select>
-                        <label class="diameter_label" for="diameter"><span>Диаметр</span>расположения крепёжных <p>отверстий:</p></label>
+                        <label class="diameter_label" for="diameter"><span>Диаметр</span>расположения крепёжных
+                            <p>отверстий:</p></label>
                         <select name="diameter" id="diameter">
                             <option value="12" selected>12</option>
                         </select>
                     </div>
                     <div class="second_column">
-                        <label class="top_label" for="dco_select"><span>ДЦО</span><br>(диаметр <br>центрального <br>отверстия):</label><br>
+                        <label class="top_label" for="dco_select"><span>ДЦО</span><p>(диаметр центрального
+                            отверстия):</p></label>
                         <select name="dco_select" id="dco_select">
                             <option value="12" selected>12</option>
                         </select>
-                        <label class="bottom_label" for="et_select"><span>ЕТ</span><br>(вылет диска):</label><br>
+                        <label class="bottom_label" for="et_select"><span>ЕТ</span><p>(вылет диска):</p></label>
                         <select name="et_select" id="et_select">
                             <option value="12" selected>12</option>
                         </select>
@@ -302,7 +306,7 @@
                     </div>
                     <p class="price">393.00 <span>грн.</span></p>
                 </div>
-                <div class="item" id="last_string">
+                <div class="last_string">
                     <p class="title">Goodyear</p>
                     <p class="fullname">Ultra Grip Extreme</p>
                     <div class="img">
@@ -310,7 +314,7 @@
                     </div>
                     <p class="price">90.00 <span>грн.</span></p>
                 </div>
-                <div class="item" id="last_string">
+                <div class="last_string">
                     <p class="title">Nokian</p>
                     <p class="fullname">Hakkapeliitta R</p>
                     <div class="img">
@@ -318,7 +322,7 @@
                     </div>
                     <p class="price">115.00 <span>грн.</span></p>
                 </div>
-                <div class="item" id="last_string">
+                <div class="last_string">
                     <p class="title">Hankook</p>
                     <p class="fullname">K 708 155/65 R14</p>
                     <div class="img">
@@ -332,7 +336,7 @@
                 <p class="brends">
                     <img src="img/copyblue.png" alt="copy" class="copy2">БРЕНДЫ:</p>
                 <div class="right_menu">
-                    <form method="get" action="search">
+                    <form action="search">
                         <p><img src="img/circle.png" alt="circle" class="circle2">ШИНЫ</p>
                         <div class="brandlist">
                             <input type="checkbox" class="checkbox" id="brand1">
@@ -344,12 +348,12 @@
                         </div>
                         <p><img src="img/circle.png" alt="circle" class="circle2">ДИСКИ</p>
                         <div class="brandlist">
-                            <input type="checkbox" class="checkboxagain" id="brand1">
-                            <label class="brandagain" for="brand1">Бренд 1</label>
-                            <input type="checkbox" class="checkboxagain" id="brand2">
-                            <label class="brandagain" for="brand2">Бренд 2</label>
-                            <input type="checkbox" class="checkboxagain" id="brand3">
-                            <label class="brandagain" for="brand3">Бренд 3</label>
+                            <input type="checkbox" class="checkboxagain" id="brand4">
+                            <label class="brandagain" for="brand4">Бренд 1</label>
+                            <input type="checkbox" class="checkboxagain" id="brand5">
+                            <label class="brandagain" for="brand5">Бренд 2</label>
+                            <input type="checkbox" class="checkboxagain" id="brand6">
+                            <label class="brandagain" for="brand6">Бренд 3</label>
                         </div>
                         <button type="submit" value="Выбрать">Выбрать</button>
                     </form>

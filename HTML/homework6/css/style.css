@@ -89,16 +89,18 @@ header {
     list-style: none;
     float: left;
     padding: 4px 0 0 2px;
-    font-size: 10.91px;
+    font-size: 10.6px;
 }
 
 .contact_form li {
     padding-left: 1px;
     float: left;
+    color: white;
+    padding-right: 2px;
 }
 
 .lost_password {
-    margin: -1px 0 0 19px;
+    margin: -2px 0 0 18px;
     font-size: 12px;
 }
 
@@ -236,14 +238,16 @@ section {
     margin-right: 14px;
 }
 
-.fon p {
+.h1,
+.h2,
+.h3 {
     color: #154468;
     font-family: 'Arial';
     font-weight: 900;
+    float: left;
 }
 
 .h1 {
-    float: left;
     padding: 0 47px 0 57px;
     font-size: 12px;
     letter-spacing: 0.1px;
@@ -251,13 +255,11 @@ section {
 }
 
 .h2 {
-    float: left;
     padding: 0 10px 0 30px;
     font-size: 10px;
 }
 
 .h3 {
-    float: left;
     padding: 2px 13px 0 3px;
     font-size: 10px;
 }
@@ -300,11 +302,10 @@ section {
 .left_filter select {
     height: 18px;
     width: 100px;
-    float: right;
-    margin-top: 2px;
 }
 
-#year {
+#year,
+#year2 {
     width: 56px;
     margin-right: 44px;
 }
@@ -329,8 +330,6 @@ section {
 .right_filter select {
     height: 18px;
     width: 100px;
-    float: right;
-    margin-top: 2px;
 }
 
 #box1 button {
@@ -368,12 +367,7 @@ section {
 .fon2 {
     margin-left: 6px;
 }
-/*
-#form2 {
-    float: left;
-    font-family: 'Arial';
-}
-*/
+
 .center_filter {
     float: left;
 }
@@ -410,15 +404,9 @@ section {
     line-height: 8px;
     text-align: right;
 }
-/*
-#r {
-    width: 183px;
-    float: left;
-}
-*/
+
 #season {
     width: 183px;
-    float: left;
 }
 
 #r select {
@@ -442,18 +430,15 @@ section {
 }
 
 .choise {
-    padding: 1px 0 0 2px;
+    padding: 6px 0 0 2px;
     float: left;
-    width: 60px;
+    width: 75px;
+    line-height: 11px;
 }
 
-.winter {
-    margin: -7px 0 0 0;
-    letter-spacing: 0.4px;
-}
-
-.allseasons {
-    margin: -6px 0 0 0;
+.choise label {
+    float: left;
+    padding-bottom: 3px;
 }
 
 #season input[type="checkbox"] {
@@ -465,6 +450,7 @@ input[type="checkbox"] + .label {
     padding-left: 14px;
     background-image: url('../img/checkbox.png');
     background-repeat: no-repeat;
+    background-position: 0;
     font-size: 11px;
 }
 
@@ -472,7 +458,7 @@ input[type="checkbox"]:checked + .label:before {
     content: '\2713';
     position: absolute;
     display: block;
-    margin: -19px 0 0 2px;
+    margin: 1px 0 0 -12px;
 }
 
 #box2 button {
@@ -504,18 +490,7 @@ input[type="checkbox"]:checked + .label:before {
     font-size: 13px;
     padding: 0 4px 0 8px;
 }
-/*
-#morefon {
-    float: left;
-    overflow: hidden;
-    height: 133px;
-}
 
-#form3 {
-    float: left;
-    font-family: 'Arial';
-}
-*/
 .first_column {
     width: 160px;
     float: left;
@@ -618,11 +593,6 @@ input[type="checkbox"]:checked + .label:before {
     padding-right: 3px;
 }
 
-.second_column p {
-    color: grey;
-    font-size: 10px;
-}
-
 #dco_select {
     margin-top: 5px;
     vertical-align: middle;
@@ -686,6 +656,7 @@ main {
 
 .copy {
     float: left;
+    border-radius: 7px;
 }
 
 .catalogue {
@@ -749,7 +720,6 @@ main {
     color: #0c3256;
     text-decoration: underline;
     line-height: 13px;
-    background: url(../img/markerblue.png) no-repeat 0 4px;
 }
 /*-- TIRES --*/
 .center_part {
@@ -759,7 +729,8 @@ main {
     background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
 
-.item {
+.item,
+.last_string{
     float: left;
     width: 138px;
     margin: 12px 7px 1px 23px;
@@ -801,11 +772,12 @@ main {
     text-align: center;
 }
 
-.item span {
+.item span,
+.last_string span {
     font-size: 12px;
 }
 
-#last_string {
+.last_string {
     padding-top: 4px;
 }
 /*-- RIGHT CATALOGUE --*/
@@ -830,6 +802,7 @@ main {
 .copy2 {
     padding-right: 2px;
     float: left;
+    border-radius: 7px;
 }
 
 .right_menu p {
@@ -880,14 +853,7 @@ input[type="checkbox"]:checked + .brand:before,
     content: '\2713';
     position: absolute;
     display: block;
-}
-
-input[type="checkbox"]:checked + .brand:before {
     margin-left: -22px;
-}
-
-.checkboxagain:checked + .brandagain:before {
-    margin: 115px 0 0 -22px;
 }
 
 .right_menu button {
