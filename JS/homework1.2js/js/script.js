@@ -1,23 +1,11 @@
 var namesArray = [];
-
-for (var i = 0; i < 5; i++) {
-    namesArray[i] = prompt('Введите имя пользователя' + (i+1), '');
-}
-
-var curentUserName = prompt('Введите имя пользователя:', '');
-
-compareNameInArray(curentUserName, namesArray);
-
-function compareNameInArray(name, array) {
-    for (var i = 0; i < array.length; i++) {
-        if (name == array[i]) {
-            alert(array[i] + ', вы успешно вошли!');
-            break;
-        }
-         else if ( i == array.length - 1 ) {
-            alert('Данное имя не найдено!');
-        }
+    for (var i = 0; i < 5; i++) {
+        namesArray[i] = prompt('Введите имя пользователя' + (i+1), '');
     }
-}
 
-
+var curentUserName = prompt('Введите текущее имя пользователя:', '');
+    if ( namesArray.indexOf(curentUserName) >= 0 ) {
+        alert(curentUserName + ', вы успешно вошли!');
+    } else {
+        alert('Данное имя не найдено!');
+    }
